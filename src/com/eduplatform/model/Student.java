@@ -11,8 +11,12 @@ public class Student implements CourseObserver {
         this.preferredCategory = preferredCategory;
     }
 
-    public String getName() { return name; }
-    public String getPreferredCategory() { return preferredCategory; }
+    public String getName() {
+        return name;
+    }
+    public String getPreferredCategory() {
+        return preferredCategory;
+    }
 
     @Override
     public void onNotification(String courseTitle, String message) {
