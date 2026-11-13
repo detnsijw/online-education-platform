@@ -1,11 +1,11 @@
-package com;
+package com.eduplatform;
 
 import com.eduplatform.behavioral.strategy.BudgetFriendlyStrategy;
-import com.eduplatform.behavioral.strategy.SkillBasedStrategy;
 import com.eduplatform.creational.builder.Course;
 import com.eduplatform.creational.factory.LessonFactory;
 import com.eduplatform.model.Student;
 import com.eduplatform.structural.facade.EducationPlatformFacade;
+import com.eduplatform.behavioral.strategy.SkillBasedStrategy;
 
 public class Main {
     public static void main(String[] args) {
